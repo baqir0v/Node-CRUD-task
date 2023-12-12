@@ -3,7 +3,7 @@ import cors from "cors"
 
 const app = express()
 const PORT = 5500
-let counter = 6
+let counter = 16
 app.use(express.json())
 app.use(cors())
 
